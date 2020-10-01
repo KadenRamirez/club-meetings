@@ -47,8 +47,7 @@ High Schoolers from around the state of Arkansas.
 - Potential Events
     - Review hackasat - Really cool competition from Defcon. Already happened in August, but might be worthwhile to review the challenges for a potential entry next year.
     - Google Hashcode - choose a programming language and team and solve
-an engineering problem provided by the competition - Sometime in
-2021.
+an engineering problem provided by the competition - Sometime in 2021.
     - IBM’s Master the Mainframe - gain hands-on experience with different skills. Specifically, MtM is in three parts:
         - Part 1: Learn the basics of navigation, files and programs.
         - Part 2: Practice programming languages, operating systems and technologies.
