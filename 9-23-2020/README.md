@@ -8,7 +8,7 @@
 - President-led Seminar that covers a CompSci niche.
 - New idea - will only happen if members want it to happen.
 - Some potential topics:
-    - Introduction to Linux/Ubuntu - used at some Programming Competitions in the Spring.
+    - Introduction to Linux/[Ubuntu](https://ubuntu.com) - used at some Programming Competitions in the Spring.
     - ArnoldC - Programming Language made up of Arnold Schwarzenegger quotes.
     - SQL Commands in Google Sheets - quickly sift through messy spreadsheets.
     - Introduction to Web Design/Development - learn to build a simple, static webpage on Github Pages.
