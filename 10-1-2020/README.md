@@ -16,7 +16,13 @@
 
 - A common challenge at CTFs requires one to navigate through a Linux machine in order to retrive a flag. 
 - This requires two basic commands for navigation:
-  - _**ls**_ = list all of the files and folders in a directory.
-  - _**cd {directory}**_ = change the directory to the provided directory. 
+  - `ls` = list all of the files and folders in a directory.
+  - `cd {directory}` = change the directory to the provided directory. 
 - In addition, if you need to print out the contents of a text file, you can use the _cat_ command:
-  - _**cat {file}**_ = print out the contents of a text file. 
+  - `cat {file}` = print out the contents of a text file. 
+- Finally, here are some ways you can take advantage of _cd_ to more effectively move around a Linux filesystem:
+  - `cd ~` = automatically navigate to the home directory.
+  - `cd ../` = move backwards one directory. 
+  - `cd ~{username}` = if you are hunting for the directory of a certain user, you can automatically navigate to the user's home directory. 
+- If you wish to try a practice Linux navigation challenge, you can try [this](https://github.com/ASMSA-CompSci-Club/club-meetings/blob/master/10-1-2020/linux-ctf-practice.md) from DarkCTF. 
+- We will continue to expand upon this Linux commands toolkit as we progress in the year. 
