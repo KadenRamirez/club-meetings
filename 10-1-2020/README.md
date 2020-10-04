@@ -1,9 +1,9 @@
 # CompSci Club Meeting 10/1/2020
 
 1. [What you should know about Most Online CTFs](#what-you-should-know-about-most-online-ctfs)
-2. Simple Linux Navigation Challenge
-3. High School Hack 2020
-4. Future Plans & Misc
+2. [Simple Linux Navigation Challenge](#simple-linux-navigation-challenge)
+3. [High School Hack 2020](#high-school-hack-2020)
+4. [Future Plans & Misc](#future-plans-&-misc)
 
 ---
 
