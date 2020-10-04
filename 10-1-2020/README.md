@@ -3,7 +3,7 @@
 1. [What you should know about Most Online CTFs](#what-you-should-know-about-most-online-ctfs)
 2. [Simple Linux Navigation Challenge](#simple-linux-navigation-challenge)
 3. [High School Hack 2020](#high-school-hack-2020)
-4. [Future Plans & Misc](#future-plans-&-misc)
+4. [Future Plans and Misc](#future-plans-and-misc)
 
 ---
 
@@ -42,6 +42,6 @@
 - All Gamemasters get cool shirs & bragging rights. 
 - We will start making problems for High School Hack in the next week or so. 
 
-## Future Plans & Misc
+## Future Plans and Misc
 
 
