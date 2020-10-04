@@ -56,3 +56,7 @@
     - [DamCTF 2020](https://ctftime.org/event/1076)
     - [spoilersCTF](https://ctftime.org/event/1130)
     - [SECCON 2020](https://ctftime.org/event/1119)
+  - If you would like to independently complete some hacktivities, Kaden recommends [tryhackme.com](https://tryhackme.com).
+  - We will go over the process of building a challenge for High School Hack next meeting. 
+- Workshops
+  - Next club meet, we will have a workshop on Github & GitGuis integrated with the High School Hack Challenge Devlopment process.
