@@ -44,4 +44,15 @@
 
 ## Future Plans and Misc
 
-
+- Game Jams & Hackathons
+  - Game Jam = build a game in a limited amount of time. 
+  - Hackathon = build an app in a limited amount of time.
+  - Seward is more than happy to sponsor us and invest in pizza for a day if we participate in a Game Jam or Hackathon. 
+  - We may need to host a Game Development Workshop before hand to ensure everyone has the proper skillset.
+  - If you find a Game Jam or Hackathon that you think we should participate in, please bring it up!
+- High School Hack Prep + CTFs
+  - We want to participate in at least one CTF before High School Hack as a club. 
+  - Potential candidates for the weekend of October 10th:
+    - [DamCTF 2020](https://ctftime.org/event/1076)
+    - [spoilersCTF](https://ctftime.org/event/1130)
+    - [SECCON 2020](https://ctftime.org/event/1119)
