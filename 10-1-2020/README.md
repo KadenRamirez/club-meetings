@@ -11,6 +11,7 @@
   - There will only be one account per team for each CTF. Login details are typically shared through a unique login link, rather than a traditional username and password. 
 - At some CTFs, the point value of challenges goes down as more teams solve it. This incentivises teams to solve challenges sooner rather than later. 
 - In order to receive points for a solved challenge, you must provide its flag. This flag is typically in the format of _flag{coolflagname}_ or _competitionName{coolFlagName}_.
+- Following a CTF, many teams post writeups detailing the process of combating different challenges. It is a good idea to review these for any challenges that appeared to be beyond the scope of your skillset. 
 
 ## Simple Linux Navigation Challenge
 
@@ -26,3 +27,16 @@
   - `cd ~{username}` = if you are hunting for the directory of a certain user, you can automatically navigate to the user's home directory. 
 - If you wish to try a practice Linux navigation challenge, you can try [this](https://github.com/ASMSA-CompSci-Club/club-meetings/blob/master/10-1-2020/linux-ctf-practice.md) from DarkCTF. 
 - We will continue to expand upon this Linux commands toolkit as we progress in the year. 
+
+## High School Hack 2020
+
+- We, the Gamemasters, host a CTF and invite teams from around the state to compete. 
+- Will be in-person.
+- Is Tentatively scheduled for November 14, 2020.
+- While participating is not required, it is encouraged. 
+- All Gamemasters get cool shirs & bragging rights. 
+- We will start making problems for High School Hack in the next week or so. 
+
+## Future Plans & Misc
+
+
