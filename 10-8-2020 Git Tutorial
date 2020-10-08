@@ -1,1 +1,24 @@
+from gtts import gTTS 
+from pygame import mixer
+import os
+import time
+import sys
 
+def slowprintASCII(s):
+  for c in s + '\n':
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    time.sleep(1./100)
+    
+def slowprintM(s):
+  for c in s + '\n':
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    time.sleep(1./10)
+
+def popupmsg(msg):
+    label = ttk.Label(popup, text=msg, font=NORM_FONT)
+    label.pack(side="top", fill="x", pady=10)
+    B1 = ttk.Button(popup, text="Okay", command = popup.destroy)
+    B1.pack()
+    popup.mainloop()
