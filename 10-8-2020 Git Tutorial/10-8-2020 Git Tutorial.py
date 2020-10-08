@@ -4,6 +4,10 @@ import os
 import time
 import sys
 
+mixer.init()
+mixer.music.load("BobRoss.mp3")
+mixer.music.play()
+
 def slowprintASCII(s):
   for c in s + '\n':
     sys.stdout.write(c)
@@ -22,6 +26,7 @@ def popupmsg(msg):
     B1 = ttk.Button(popup, text="Okay", command = popup.destroy)
     B1.pack()
     popup.mainloop()
+    
 
 slowprintASCII("""
  __     __     ______     __         ______     ______     __    __     ______        ______   ______        ______   __  __     ______                            
@@ -76,8 +81,6 @@ for i in range(3):
 	myobj.save("output.mp3") 
 	# Play the converted file 
 	os.system("start output.mp3")
-	if i==2:
-		time.sleep(22)
 
 
 popupmsg("Syntax error missing a semicolon ;")
