@@ -4,6 +4,10 @@ import os
 import time
 import sys
 
+mixer.init()
+mixer.music.load("BobRoss.mp3")
+mixer.music.play()
+
 def slowprintASCII(s):
   for c in s + '\n':
     sys.stdout.write(c)
@@ -22,6 +26,7 @@ def popupmsg(msg):
     B1 = ttk.Button(popup, text="Okay", command = popup.destroy)
     B1.pack()
     popup.mainloop()
+    
 
 slowprintASCII("""
  __     __     ______     __         ______     ______     __    __     ______        ______   ______        ______   __  __     ______                            
@@ -46,28 +51,11 @@ slowprintASCII("""
 
 for i in range(3):
 	if i==0:
-		slowprintM("""\n\nYou there, Yes YOU are you interested in participating in the various hackathons and CTFs,
-        coding competitions, or learning code tidbits in general? Then the computer science club is for you!""")
-		# ~ time.sleep(3)
-		mytext = """You there, Yes YOU are you interested in participating in the various hackathons and CTFs,
-					coding competitions, or learning code tidbits in general? Then the computer science club is for you!
-				 """
+		mytext = input()
 	elif i==1:
-		slowprintM("""\n\nNeed more convincing? Just join us for our Arnold C workshop and learn how to code completely in
-        arnold schwarzenegger one liners and feel awesome when ending your program in YOU HAVE BEEN TERMINATED.""")
-		# ~ time.sleep(3)
-		mytext = """Need more convincing? Just join us for our Arnold C workshop and learn how to code completely in
-					arnold schwarzenegger one liners and feel awesome when ending your program in YOU HAVE BEEN TERMINATED.
-				 """
+		mytext = input()
 	else:
-		slowprintM("""\n\nUnsure of your coding skills? The Arnold C workshop isn’t the only opportunity to increase your coding
-        ability. We will host many other workshops throughout the school year focusing on different coding
-        languages or problems so feel free to join the computer science club and increase your coding confidence.""")
-		# ~ time.sleep(3)
-		mytext = """Unsure of your coding skills? The Arnold C workshop isn’t the only opportunity to increase your coding
-					ability. We will host many other workshops throughout the school year focusing on different coding
-					languages or problems so feel free to join the computer science club and increase your coding confidence.
-				 """
+		mytext = input()
 
 	# ~ 'Convert this Text to Speech in Python'
 	# Language we want to use 
@@ -76,8 +64,6 @@ for i in range(3):
 	myobj.save("output.mp3") 
 	# Play the converted file 
 	os.system("start output.mp3")
-	if i==2:
-		time.sleep(22)
 
 
 popupmsg("Syntax error missing a semicolon ;")
